@@ -16,7 +16,7 @@ const ecountEl = document.querySelector('.ecount')
 const winModalEl = document.getElementById('myModal')
 const winModal = new bootstrap.Modal(winModalEl, {})
 
-const wordList = ['BANANA', 'PASSARINHO', 'ABELHA', 'ALHO', 'PROGÓSTICO', 'ABACATE', 'ACEROLA', 'AMENTOA', 'ANSO', 'ARANHA', 'ANACONDA', 'CABIDE', 'CAPACETE', 'CARIMBO', 'CASTICAL', 'CATA-VENTO', 'CD', 'CELULAR', 'CHAVE', 'CHICOTE', 'CHINELO', 'CHUPETA', 'CLIPE', ]
+const wordList = ['BANANA', 'PASSARINHO', 'ABELHA', 'ALHO', 'ABACATE', 'ACEROLA', 'AMENTOA', 'ANSO', 'ARANHA', 'ANACONDA', 'CABIDE', 'CAPACETE', 'CARIMBO', 'CASTICAL', 'CATA-VENTO', 'CD', 'CELULAR', 'CHAVE', 'CHICOTE', 'CHINELO', 'CHUPETA', 'CLIPE', ]
 const randomWord = () => Math.floor(Math.random() * (22 - 0)) + 0
 
 
